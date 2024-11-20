@@ -2090,7 +2090,7 @@
 	(footprint "LED_THT:LED_D5.0mm"
 		(layer "F.Cu")
 		(uuid "355a5f11-8e9b-48f3-9564-9f3fa0e68f79")
-		(at 177.8 87.63 -90)
+		(at 182.88 87.63 -90)
 		(descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
 		(tags "LED diameter 5.0mm 2 pins")
 		(property "Reference" "REF**"
@@ -5656,7 +5656,7 @@
 		)
 	)
 	(gr_text "Test LED"
-		(at 179.07 92.71 0)
+		(at 182.88 92.71 0)
 		(layer "F.SilkS")
 		(uuid "b3264dbd-f6f2-4a77-9df8-5ff7e791e328")
 		(effects
@@ -5664,7 +5664,6 @@
 				(size 1 1)
 				(thickness 0.1)
 			)
-			(justify left)
 		)
 	)
 	(gr_text "100nF"
@@ -5790,6 +5789,14 @@
 		)
 	)
 	(segment
+		(start 181.61 87.63)
+		(end 182.88 87.63)
+		(width 1)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "0642f278-27fb-42e5-8b51-967c2e51166f")
+	)
+	(segment
 		(start 175.26 93.98)
 		(end 172.72 91.44)
 		(width 1)
@@ -5854,6 +5861,14 @@
 		(uuid "2881bd1a-fdef-47f3-926e-7f63c7917af5")
 	)
 	(segment
+		(start 177.8 93.98)
+		(end 181.61 90.17)
+		(width 1)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "28e1f117-2a5d-4316-a089-1014aa02a631")
+	)
+	(segment
 		(start 160.02 88.9)
 		(end 160.02 93.98)
 		(width 1)
@@ -5884,6 +5899,14 @@
 		(layer "F.Cu")
 		(net 0)
 		(uuid "4af69191-2d45-4367-9182-823eaa2ca926")
+	)
+	(segment
+		(start 181.61 90.17)
+		(end 182.88 90.17)
+		(width 1)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "4f397fdc-a1af-48cb-a72c-dc39f4037cd5")
 	)
 	(segment
 		(start 119.38 111.76)
@@ -5918,28 +5941,12 @@
 		(uuid "60a932aa-53f5-4c44-adc2-b5f626394e3d")
 	)
 	(segment
-		(start 177.8 83.82)
-		(end 177.8 87.63)
-		(width 1)
-		(layer "F.Cu")
-		(net 0)
-		(uuid "61bd3cd5-0e90-414c-b220-37cff4d66cad")
-	)
-	(segment
 		(start 170.18 93.98)
 		(end 170.18 83.82)
 		(width 1)
 		(layer "F.Cu")
 		(net 0)
 		(uuid "7154f390-36de-4d51-ad81-6b5104c82ce0")
-	)
-	(segment
-		(start 177.8 93.98)
-		(end 177.8 90.17)
-		(width 1)
-		(layer "F.Cu")
-		(net 0)
-		(uuid "72eae9dc-72ac-40bd-a16a-2e21268662c1")
 	)
 	(segment
 		(start 121.92 83.82)
@@ -6004,6 +6011,14 @@
 		(layer "F.Cu")
 		(net 0)
 		(uuid "b5124f1d-273f-41aa-9955-d2d152ec0fc2")
+	)
+	(segment
+		(start 177.8 83.82)
+		(end 181.61 87.63)
+		(width 1)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "b9904a07-800e-4c84-8aac-d82c8f18038a")
 	)
 	(segment
 		(start 165.1 88.9)

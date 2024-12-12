@@ -59,3 +59,8 @@
        3. Press upload button
        4. After uploading, the LED should blink on and off on repeat
     6. Upload your actual code, assuming that the test code works
+
+## Troubleshooting
+
+### avrdude: ser_open(): can't open device: Access is denied.
+Try running Arduino IDE as root/administrator

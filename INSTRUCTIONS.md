@@ -18,24 +18,27 @@
     4. Open ArduinoISP example sketch
        1. `File > Examples > ArduinoISP > ArduinoISP`
     5. Upload program to Arduino Nano
+       1. IMPORTANT: Make sure that the `Arduino AVR Boards` library is updated to the latest version for this step
     6. Turn on bootloader switch
        1. The switch can be left on as long as the Arduino Nano has the ArduinoISP program on it
  3. Burn bootloader (one-time for each ATTiny85 chip)
     1. Select Snapduino board/port in Arduino IDE
     2. Select programmer
        1. `Tools > Programmer > Arduino as ISP`
-    3. Burn bootloader
+    3. Plug ATTiny85 into `Burn Bootloader` IC socket
+    4. Burn bootloader
        1. `Tools > Burn Bootloader`
  4. At this time, repeat step 3.3 for any other ATTiny85 chips
     1. If you need to burn the bootloader to a new chip after following steps 5 or reloading ArduinoIDE, start over from step 3.1, don't start from 3.3
  5. Calibrate bootloader for ATTiny85 (one-time only per ATTiny85 chip)
-    1. Unplug USB cable from Arduino Nano and plug it into the FTDI adapter
-    2. Select Snapduino board
-    3. Select FTDI adapter port
-    4. Open serial monitor and set baud rate to 9600
-    5. Unplug and replug the FTDI adapter if the Tiny Tuner text menu is not shown
-    6. Wait for the `Tiny Tuner` menu to show up
-    7. Send `x` until the calibration successful message shows up
+    1.Plug ATTiny85 into `Upload Program` IC socket
+    2. Unplug USB cable from Arduino Nano and plug it into the FTDI adapter
+    3. Select Snapduino board
+    4. Select FTDI adapter port
+    5. Open serial monitor and set baud rate to 9600
+    6. Unplug and replug the FTDI adapter if the Tiny Tuner text menu is not shown
+    7. Wait for the `Tiny Tuner` menu to show up
+    8. Send `x` until the calibration successful message shows up
        1. Simply click on the text input box, type the letter x (lowercase) and press enter
        2. repeat
  6. Change `Arduino AVR Boards` board library version to `1.6.11` (this is because a bug was introduces in version 1.6.12 that prevents the ATTiny85 from being programmed with this method)
@@ -46,7 +49,7 @@
     4. Click install
     5. NOTE: this step will cause Arduino IDE to prompt you to update your board libraries every time you open the app. It is important that you **DO NOT UPDATE THE `Arduino AVR Boards` LIBRARY**, or you will be unable to program the ATTiny85
  7. Upload program to ATTIny85 chip
-    1. Plug ATTIny85 into programming section of board
+    1. Plug ATTIny85 into `Burn Bootloader` IC socket
     2. Plug usb into FTDI adapter
     3. Select Snapduino board
     4. Select port for FTDI adapter

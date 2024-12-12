@@ -31,7 +31,7 @@
  4. At this time, repeat step 3.3 for any other ATTiny85 chips
     1. If you need to burn the bootloader to a new chip after following steps 5 or reloading ArduinoIDE, start over from step 3.1, don't start from 3.3
  5. Calibrate bootloader for ATTiny85 (one-time only per ATTiny85 chip)
-    1.Plug ATTiny85 into `Upload Program` IC socket
+    1. Plug ATTiny85 into `Upload Program` IC socket
     2. Unplug USB cable from Arduino Nano and plug it into the FTDI adapter
     3. Select Snapduino board
     4. Select FTDI adapter port

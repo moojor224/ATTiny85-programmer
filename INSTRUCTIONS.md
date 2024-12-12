@@ -49,7 +49,7 @@
     4. Click install
     5. NOTE: this step will cause Arduino IDE to prompt you to update your board libraries every time you open the app. It is important that you **DO NOT UPDATE THE `Arduino AVR Boards` LIBRARY**, or you will be unable to program the ATTiny85
  7. Upload program to ATTIny85 chip
-    1. Plug ATTIny85 into `Burn Bootloader` IC socket
+    1. Plug ATTIny85 into `Upload Program` IC socket
     2. Plug usb into FTDI adapter
     3. Select Snapduino board
     4. Select port for FTDI adapter
